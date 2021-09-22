@@ -1,0 +1,20 @@
+.row_poster{
+    height: 250px;
+    width: 200px;
+    margin-right: 1rem;
+    border-radius: 5px;
+}
+
+.row_poster:hover{
+   transform: scale(1.09);
+}
+
+.link-wrap{
+    position: relative;
+}
+
+
+
+
+
+

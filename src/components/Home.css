@@ -1,0 +1,130 @@
+/* home */
+.home{
+    background:rgba(0,0,0,0.3) url(images/it2.jpg)no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-blend-mode: darken;
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: none;
+    padding-bottom: 2rem;
+}
+
+.searchBar{
+    padding: 0.9rem;
+    width: 50%;
+    border-radius: 45px;
+    border: none;
+    background:rgb(11, 11, 26) ;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.home2{
+    border: none;
+    background: transparent;
+    background-size: cover;
+    display: flex;
+   overflow-y: hidden;
+   overflow-x: scroll;
+   padding: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 0px 30px 50px rgb(11, 11, 26) ;
+}
+.home2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.home2::-webkit-scrollbar{
+    display: none;
+  }
+
+  .cate{
+      padding: 0.5rem 1rem;
+      border-radius: 45px;
+      color: white;
+      font-weight: 500;
+      font-size: 1.2rem;
+      margin-right: 20px;
+      border: 1px solid white;
+      transition: 2s;
+  }
+
+  .cate:hover{
+      cursor: pointer;
+      transform: scale(1.09);
+      background: rgb(158, 154, 154);
+      border: none;
+      color: rgb(11, 11, 26);
+     
+  }
+
+.home2 p{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+}
+
+
+
+.images{
+   display: flex;
+   overflow-y: hidden;
+   overflow-x: scroll;
+   padding: 20px;
+   border-top: none;
+}
+
+.images::-webkit-scrollbar{
+  display: none;
+}
+
+
+.row{
+    color: white;
+}
+
+.h2category{
+    margin-left: 2rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+@media (max-width:863px) {
+    .scrollNav{
+        padding: 0.5rem 0.5rem;
+        background-color: rgb(11, 11, 26);
+    }
+    .searchBar{
+        padding: 0.7rem;
+        width: 90%;
+        border-radius: 45px;
+        border: none;
+        background:rgb(11, 11, 26) ;
+        color: white;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:576px) {
+    .home2{
+        border: none;
+        background: transparent;
+        background-size: cover;
+        height: max-content;
+        width: 100%;
+        color: white;
+        padding: 0.5rem 0.5rem;
+        font-size: 1.4rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
