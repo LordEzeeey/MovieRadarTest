@@ -27,19 +27,19 @@ function App() {
             <Home />
           </Route>
 
-          <Route path="/posts">
+          <Route exact path="/posts">
             <Post />
           </Route>
 
-          <Route path="/action">
+          <Route exact path="/action">
             <Actionpage />
           </Route>
 
-          <Route path="/horror">
+          <Route exact path="/horror">
             <Horrorpage />
           </Route>
 
-          <Route path="/adventure">
+          <Route exact path="/adventure">
             <Adventurepage />
           </Route>
 
@@ -47,23 +47,23 @@ function App() {
             <Nollywood />
           </Route>
 
-          <Route path="/superhero">
+          <Route exact path="/superhero">
             <SuperHero />
           </Route>
 
-          <Route path="/animations">
+          <Route exact path="/animations">
             <Animatedpage />
           </Route>
 
-          <Route path="/comedy">
+          <Route exact path="/comedy">
             <Comedypage />
           </Route>
 
-          <Route path="/series">
+          <Route exact path="/series">
             <Seriespage />
           </Route>
 
-          <Route path="/login">
+          <Route exact path="/login">
             <Login />
           </Route>
 
@@ -71,11 +71,11 @@ function App() {
             <Landingpage />
           </Route>
 
-          <Route path="/signin">
+          <Route exact path="/signin">
             <Signin />
           </Route>
 
-          <Route path="/upload">
+          <Route exact path="/upload">
             <Upload />
           </Route>
         </Switch>
