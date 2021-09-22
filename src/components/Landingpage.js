@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Redirect } from "react-router";
 import { auth } from "./firebase";
+import { Link } from "react-router-dom";
 import "./Landingpage.css";
 import Navbar from "./Navbar";
 
@@ -50,7 +51,7 @@ function Landingpage() {
                    perferendis voluptatibus dolorem commodi exercitationem?
                  </p>
 
-                 <button><a href={ `/signin`}>Get Started</a></button>
+                 <button> <Link to={`/signin`}>Signup</Link></button>
               </div>
             </div>
 
@@ -68,7 +69,7 @@ function Landingpage() {
                  perferendis voluptatibus dolorem commodi exercitationem?
                </p>
 
-               <button><a href={ `/signin`}>Get Started</a></button>
+               <button> <Link to={`/signin`}>Signup</Link></button>
             </div>
             </div>
           </section>
