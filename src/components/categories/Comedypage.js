@@ -93,40 +93,40 @@ function Comedypage() {
 
       <section class="home2" id="home">
         <div className="comedy cate">
-          <a href={`/home`}>back</a>
+          <Link href={`/home`}>back</Link>
+        </div>
+        <div className="series cate">
+          <Link href={`/series`}>Series</Link>
         </div>
 
         <div className="series cate">
-          <a href={`/series`}>Series</a>
+          <Link href={`/adventure`}>Adventure</Link>
         </div>
 
         <div className="series cate">
-          <a href={`/adventure`}>Adventure</a>
+          <Link href={`/nollywood`}>Nollywood</Link>
         </div>
 
         <div className="series cate">
-          <a href={`/nollywood`}>Nollywood</a>
-        </div>
-
-        <div className="series cate">
-          <a href={`/superhero`}>SuperHero Movies</a>
+          <Link href={`/superhero`}>SuperHero Movies</Link>
         </div>
 
         <div className="horror cate">
-          <a href={`/horror`}>Horror</a>
+          <Link href={`/horror`}>Horror</Link>
         </div>
 
         <div className="animated cate">
-          <a href={`/animations`}>Animations</a>
+          <Link href={`/animations`}>Animations</Link>
         </div>
 
         <div className="action cate">
-          <a href={`/action`}>Action</a>
+          <Link href={`/action`}>Action</Link>
         </div>
 
         <div className="comedy cate">
-          <a href={`/comedy`}>Comedy</a>
+          <Link href={`/comedy`}>Comedy</Link>
         </div>
+   
       </section>
 
       <div className="rowH">
