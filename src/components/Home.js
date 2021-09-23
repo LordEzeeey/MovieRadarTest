@@ -160,9 +160,6 @@ function Home(props) {
       </section>
 
       <section class="home2" id="home">
-        <div className="comedy cate">
-          <Link href={`/home`}>back</Link>
-        </div>
         <div className="series cate">
           <Link href={`/series`}>Series</Link>
         </div>
