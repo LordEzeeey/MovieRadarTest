@@ -161,35 +161,35 @@ function Home(props) {
 
       <section class="home2" id="home">
         <div className="series cate">
-          <Link href={`/series`}>Series</Link>
+          <Link onTouchCancel={`/series`}>Series</Link>
         </div>
 
         <div className="series cate">
-          <Link href={`/adventure`}>Adventure</Link>
+          <Link to={`/adventure`}>Adventure</Link>
         </div>
 
         <div className="series cate">
-          <Link href={`/nollywood`}>Nollywood</Link>
+          <Link to={`/nollywood`}>Nollywood</Link>
         </div>
 
         <div className="series cate">
-          <Link href={`/superhero`}>SuperHero Movies</Link>
+          <Link to={`/superhero`}>SuperHero Movies</Link>
         </div>
 
         <div className="horror cate">
-          <Link href={`/horror`}>Horror</Link>
+          <Link to={`/horror`}>Horror</Link>
         </div>
 
         <div className="animated cate">
-          <Link href={`/animations`}>Animations</Link>
+          <Link to={`/animations`}>Animations</Link>
         </div>
 
         <div className="action cate">
-          <Link href={`/action`}>Action</Link>
+          <Link to={`/action`}>Action</Link>
         </div>
 
         <div className="comedy cate">
-          <Link href={`/comedy`}>Comedy</Link>
+          <Link to={`/comedy`}>Comedy</Link>
         </div>
    
       </section>
